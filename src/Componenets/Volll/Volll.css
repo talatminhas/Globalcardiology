@@ -1,0 +1,12 @@
+.image{
+    width: 70px;
+    border-radius: 2px;
+}
+.link{
+    font-size: 12.75px;
+}
+.custom-link{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;  
+}

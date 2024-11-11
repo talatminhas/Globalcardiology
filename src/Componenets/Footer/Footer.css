@@ -1,0 +1,19 @@
+.bg{
+    width: 100%;
+    background-color: #ee1919;
+}
+.line{
+    width: 270px;
+    height: 1px;
+    background-color: #FEFEFE;
+}
+.ancher-link{
+    text-decoration: none;
+    color: #FEFEFE;
+}
+.copyright{
+    font-size: 11px;
+}
+.footer-text{
+    font-size: 15px;
+}

@@ -1,0 +1,88 @@
+*{
+    --bs-navbar-hover-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+}
+
+.header-img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.contact-box{
+    width: 900px;
+    position: absolute;
+    right: 0px;
+    bottom: -186px;
+}
+.content-text-about{
+    padding: 30px;
+
+}
+.icon-heading{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 25px;
+}
+.sub-heading{
+    font-size: 23px;
+    font-weight: 700;
+}
+.ward{
+    font-size: 19px;
+}
+.date{
+    font-size: 19px;
+}
+
+.about-btn{
+    background-color: #e12628;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+
+}
+.about-btn:hover{
+    background-color: transparent;
+    border: 1px solid #e12628;
+    color: #e12628;
+    transition: 0.6s;
+
+}
+.submission-btn{
+    background-color: #e12628;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+
+}
+.submission-btn:hover{
+    background-color: transparent;
+    border: 1px solid #e12628;
+    color: #e12628;
+    transition: 0.6s;
+}
+.current-btn{
+    background-color: #e12628;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+.current-btn:hover{
+    background-color: transparent;
+    color: #e12628;
+    border:1px solid #e12628;
+    transition: .8s;
+
+}
+.detail-text{
+    font-size: 23px;
+    font-weight: 300;
+    
+}
+.book-png:hover{
+    box-shadow: 0px 1px 8px #3c3c3c3c;
+}

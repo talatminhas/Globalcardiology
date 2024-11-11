@@ -1,0 +1,42 @@
+*{
+    --bs-nav-link-padding-y: 15px;
+    --bs-nav-link-padding-x: 15px;
+    --bs-navbar-padding-y:0;
+}
+.pkp-screen{
+    background-color: #e12628; 
+    margin: 0;
+}
+.main-heading{
+    font-size: 38px;
+}
+.status{
+    font-size: 15px;
+    font-weight: 400;
+}
+.name{
+    font-size: 15px;
+    font-weight: 300;
+}
+.number-bg{
+    background-color: #00000080;
+    height: 30px;
+}
+
+.nav-link {
+    color: #e12628;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    background-color: #ae1d1e;
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-link.active {
+    background-color: #ae1d1e; 
+    color: rgb(255, 255, 255);
+    font-weight: 500; 
+}

@@ -1,0 +1,9 @@
+.side:last-child{
+    border-bottom: none;
+}
+.list-group{
+    list-style: none;
+}
+.badcrum{
+    margin-top: 32px;
+}

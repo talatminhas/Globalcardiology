@@ -1,0 +1,88 @@
+*{
+  --bs-accordion-active-bg:#f4f5f7;
+  --bs-accordion-border-radius: 0px;
+  --bs-accordion-active-bg: #fff;
+  --bs-accordion-btn-focus-box-shadow: none;
+  border: none;
+  font-family: "Roboto, sans-serif";
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
+.accordion-button {
+    font-weight: bold;
+    
+  }
+
+  .accordion-header{
+    padding-left: 45px;
+    position: relative;
+    overflow: hidden;
+  
+  }
+.accordion-header::after{
+  content: "";
+  width: 78px;
+  height: 78px;
+  top: 0;
+  left: -60px;
+  background-color: #e1262820;
+  position: absolute;
+  transform: skewX(-25deg);
+  z-index: 100;
+}
+.accordion-button{
+  width: 1000px;
+  height: 60px;
+
+
+}
+  .accordion-body {
+    font-size: 17px;
+    font-weight: 300; /* Lighter font-weight for body content */
+    color: #3c3c3c;
+  }
+  .link-text{
+    font-size: 14px;
+  }
+  &::before, &::after {
+    content: none;
+    display: none;
+  }
+  .main-heading{
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .bradcrums{
+    font-size: 14px;
+    font-weight: 300;
+  }
+.side{
+  margin-top: -25px;
+}
+/* Adjust padding and font sizes for mobile */
+@media (max-width: 768px) {
+  .badcrum {
+      padding: 0 15px;
+  }
+  .main-heading {
+      font-size: 1.5rem;
+  }
+  .accordion-button {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+  }
+  .accordion-body p {
+      font-size: 0.9rem;
+  }
+}
+
+/* Adjust styles for tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+  .accordion-button {
+      font-size: 1.1rem;
+  }
+}
